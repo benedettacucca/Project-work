@@ -73,7 +73,7 @@ Opzioni principali:
   --layer         None                                    Layer GeoPackage
   --gpt           gpt                                     Percorso eseguibile GPT
   --workers       1                                       Scene in parallelo (default: 1)
-  --tile_cache    4096                                    RAM per SNAP in MB (default: 4096)
+  --tile_cache    10240                                   RAM per SNAP in MB (default: 10240)
   --nodata        -9999                                   Valore nodata RVI (default: -9999)
   --all_polygons                                          RVI su tutti i poligoni
 
@@ -115,7 +115,7 @@ CSV_PATH       = "Valid_date_S2.csv"
 INVENTORY_PATH = "inventory_output/inventory_dates.csv"
 GPT_EXE        = "gpt"
 WORKERS        = 1
-TILE_CACHE     = 4096
+TILE_CACHE     = 10240
 NODATA         = -9999.0
 
 # ─────────────────────────────────────────────
@@ -763,7 +763,7 @@ if __name__ == "__main__":
     parser.add_argument("--layer",       default=None,                 help="Layer GeoPackage (default: primo)")
     parser.add_argument("--gpt",         default=GPT_EXE,              help="Percorso eseguibile GPT (default: gpt)")
     parser.add_argument("--workers",     type=int,   default=WORKERS,  help="Scene in parallelo (default: 1)")
-    parser.add_argument("--tile_cache",  type=int,   default=TILE_CACHE, help="RAM per SNAP in MB (default: 4096)")
+    parser.add_argument("--tile_cache",  type=int,   default=TILE_CACHE, help="RAM per SNAP in MB (default: 10240)")
     parser.add_argument("--nodata",      type=float, default=NODATA,   help="Valore nodata RVI (default: -9999)")
     parser.add_argument("--all_polygons", action="store_true",         help="Calcola RVI su tutti i poligoni (default: solo poligoni FALSE)")
     args = parser.parse_args()
