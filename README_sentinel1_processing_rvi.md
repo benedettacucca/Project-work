@@ -36,9 +36,7 @@ Legge le bande `Sigma0_VV` e `Sigma0_VH` dai file prodotti nella Fase 1, calcola
 RVI = 4 * VH / (VV + VH)
 ```
 
-I valori sono in scala lineare (Sigma0). L'RVI è nell'intervallo `[0, 1]`:
-- **~0** → suolo nudo
-- **~1** → vegetazione densa
+I valori sono in scala lineare (Sigma0). L'RVI è teoricamente ≥ 0, con valori prossimi a 0 in condizioni di suolo nudo e valori più elevati in presenza di vegetazione densa; può superare 1.
 
 ---
 
