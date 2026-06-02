@@ -82,8 +82,7 @@ Note:
       S1-B operativo 2016-2021 (guasto hardware)
       S1-C operativo da maggio 2025
       S1-D operativo da maggio 2026 (tandem con S1-C)
-    Per time series 2023-2025 si raccomanda --platform S1A per coerenza,
-    evitando la contaminazione con S1-C entrato in scena a meta' 2025.
+    Per time series 2023–2025 si raccomanda --platform BOTH per includere sia S1-A (2023–inizio 2025) che S1-C (da maggio 2025 in poi).
   - Rivisit Sentinel-1: ~12gg con un solo satellite attivo, ~6gg con
     due satelliti sfasati sulla stessa orbita (configurazione tandem:
     S1-C+S1-D da maggio 2026; in precedenza S1-A+S1-B fino al 2021)
