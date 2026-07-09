@@ -1,6 +1,6 @@
 # Monitoraggio delle pratiche di agricoltura rigenerativa mediante dati Sentinel-1 e Sentinel-2 e modelli di Machine Learning
 
-Codice a supporto del *project work*.
+Codice a supporto del *project work* del Master GIScience e Sistemi a Pilotaggio Remoto, sui campi di BF Agricola a Jolanda di Savoia (Ferrara).
 
 Il lavoro integra dati **radar (Sentinel-1)** e **ottici (Sentinel-2)** per ricostruire serie
 temporali NDVI continue: la copertura nuvolosa rende l'NDVI non osservabile in molte date, e il
