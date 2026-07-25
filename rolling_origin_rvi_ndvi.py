@@ -5,7 +5,7 @@ rolling_origin_rvi_ndvi.py
 
 VALIDAZIONE ROLLING-ORIGIN (origine espansa) della retta unica RVI->NDVI.
 
-Serve a CONFERMARE la robustezza del risultato del punto A (R2_oos ~0.38 della
+Serve a CONFERMARE la robustezza del risultato della block-CV (R2_oos ~0.38 della
 block-CV), mostrando che NON dipende dal particolare taglio in 5 blocchi. La
 block-CV nascondeva un blocco IN MEZZO e si allenava su prima E dopo; qui invece
 si predice solo il FUTURO: ci si allena su tutto il passato fino a una data
