@@ -18,8 +18,7 @@ se il numero resta intorno a 0.38, conferma il risultato della block-CV da un
 secondo angolo, indipendente.
 
   Modello: retta unica per poligono (RVI->NDVI), come nel punto A/B.
-  Poligoni: TUTTI (non solo i 110 "buoni"): il filtro dei 110 riguarda il
-            benchmark C, non la conferma del risultato A.
+  Poligoni: TUTTI (non solo i 110 "buoni").
 
 ================================================================================
 INPUT / OUTPUT
